@@ -73,7 +73,7 @@ def get_number2(line):
     # print(tens, ones)
     return tens * 10 + ones
 
-with open("input1.txt", "r") as f:
+with open("input.txt", "r") as f:
     for line in f:
         total += get_number2(line.strip())
 
